@@ -5,5 +5,5 @@ element.innerHTML = 'New Value';
 
 var im =document.getElementById("Madi");
 im.onclick = function(){
-  im.style.marginLeft = "100 px";  
+  im.style.marginLeft = '100 px';  
 };
