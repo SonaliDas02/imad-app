@@ -22,7 +22,7 @@ var articles ={
 ' article-two' : {
     title: "Article-Two|Sonali Das",
     heading:" Article-Two",
-    date:" 5 Sept, 2017",
+    date:" 15 Sept, 2017",
     content:`<p>
             This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.
         </p>
@@ -34,7 +34,7 @@ var articles ={
 },
  'article-three' :{title: "Article-Three|Sonali Das",
     heading:" Article-Three",
-    date:" 5 Sept, 2017",
+    date:" 25 Sept, 2017",
     content:`<p>
             This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.
         </p>
