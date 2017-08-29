@@ -32,7 +32,8 @@ var articles ={
         <p>This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.This is the content here.
         </p>`
 },
- 'article-three' :{title: "Article-Three|Sonali Das",
+ 'article-three' :{
+     title: "Article-Three|Sonali Das",
     heading:" Article-Three",
     date:" 25 Sept, 2017",
     content:`<p>
