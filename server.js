@@ -13,12 +13,20 @@ app.get('/Article-one',function(req,res){
     res.send('article one was requested and will be served');
 });
 
+app.get('/Article-two',function(req,res){
+    res.send('article two was requested and will be served');
+});
+
+app.get('/Article-three',function(req,res){
+    res.send('article three  was requested and will be served');
+});
+
 app.get('/ui/style.css', function (req, res) {
-  res.send(path.join(__dirname, 'ui', 'style.css'));
+  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
 app.get('/ui/main.js', function (req, res) {
-  res.send(path.join(__dirname, 'ui', 'main.js'));
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
 app.get('/ui/madi.png', function (req, res) {
