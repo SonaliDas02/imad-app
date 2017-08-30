@@ -20,6 +20,6 @@ button.onclick = function () {
         //Not done yet
     };
     //Make the request
-   request.open("GET", "http://sonisonalidas.imad.hasura-app.io/counter", true);
+   request.open('GET', 'http://sonisonalidas.imad.hasura-app.io/counter', true);
    request.send(null);
 };
