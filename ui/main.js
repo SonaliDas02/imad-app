@@ -7,7 +7,7 @@ button.onclick = function () {
     var request = new XMLhttpRequest();
     
     //Capture the response and store it in a variable
-    request.onreadystatechange= function () {
+    request.onreadystatechange = function () {
         if(request.readyState === XMLhttpRequest.DONE){
             //Take some actions
             if(request.status === 200){
@@ -19,7 +19,7 @@ button.onclick = function () {
     
         //Not done yet
     };
-    //Render the variable to the correct span
+    //Make the request
    request.open("GET", "http://sonisonalidas.imad.hasura-app.io/counter", true);
    request.send(null);
 };
