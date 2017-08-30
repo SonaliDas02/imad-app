@@ -7,10 +7,10 @@ button.onclick = function () {
     var request = new XMLhttpRequest();
     
     //Capture the response and store it in a variable
-    request.onreadystatechange= function (){
+    request.onreadystatechange= function () {
         if(request.readystate ==XMLhttpRequest.DONE){
             //Take some actions
-            if(request.status==200){
+            if(request.status===200){
                 var counter= request.responseText;
                 var span =document.getElementById("count");
                 span.innerHTML= counter.toString();
@@ -22,6 +22,4 @@ button.onclick = function () {
     //Render the variable to the correct span
    request.open("GET","http://sonisonalidas.imad.hasura-app.io/counter",true);
    req.send(null);
-    
-    
 };
